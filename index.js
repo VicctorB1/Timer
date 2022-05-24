@@ -11,17 +11,14 @@ function twoDigits(digit){
         return(digit)
     }
 }
-//a
+
 function start(){
     watch()
     interval= setInterval(watch,10)
-
-
 }
 
 function pause(){
     clearInterval(interval)
-
 }
 
 function stop(){
@@ -30,7 +27,6 @@ function stop(){
     min=0
     window.alert("You've stopped at: "+document.getElementById('watch').innerText)
     document.getElementById('watch').innerText='00:00:00'
-
 }
 
 function watch(){
